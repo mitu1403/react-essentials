@@ -26,7 +26,7 @@ function Examples() {
   return (
     <Section id="examples" title="Examples">
       <Tabs
-        // ButtonsContainer="menu" // if a built-in tag then use String and if not then use {Component name}
+        ButtonsContainer="menu" // if a built-in tag then use String and if not then use {Component name}
         buttons={
           <>
             <TabComponent
